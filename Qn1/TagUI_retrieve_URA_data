@@ -1,0 +1,27 @@
+https://data.gov.sg/dataset/hdb-property-information
+//URL to access URA resale flat prices
+
+//seller data
+click Search by property type and postal district
+
+//From Date
+select searchForm_selectedFromPeriodPostalDistrict as JAN 2016
+
+//To Date
+select searchForm_selectedToPeriodPostalDistrict as DEC 2018
+
+//Strata Landed
+Click Strata Landed
+
+//choose the required postal districts
+Click addToPostal_0
+Click addToPostal_1
+Click addToPostal_2
+Click addToPostal_3
+
+//Search
+Click searchForm_2
+
+//download the data
+select btnRadioContainer as Download into CSV
+
